@@ -22,4 +22,4 @@ This project provided valuable insights into backend development, reinforcing ke
 
 ## Video
 
-[![Watch the video]](https://raw.githubusercontent.com/sde-mull/Simple-Http-Server/Simple_Http_Request.mp4.mp4)
+[![Watch the video]](https://raw.githubusercontent.com/sde-mull/Simple-Http-Server/main/Simple_Http_Request.mp4.mp4)
