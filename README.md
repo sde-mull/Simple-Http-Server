@@ -23,3 +23,38 @@ This project provided valuable insights into backend development, reinforcing ke
 ## Video
 
 [![Watch the video]](https://raw.githubusercontent.com/sde-mull/Simple-Http-Server/main/Simple_Http_Request.mp4.mp4)
+
+## Build and Run
+
+1. If the `build` directory exists and contains files, delete them.
+2. Enter the `build` directory:
+   ```sh
+   cd build
+   ```
+3. Run CMake:
+   ```sh
+   cmake ..
+   ```
+4. Compile the project:
+   ```sh
+   make
+   ```
+5. Run the server:
+   ```sh
+   ./HttpServer <Port>
+   ```
+   - If no port is specified, the default port `3000` will be used.
+
+## Example Usage
+
+Start the server on port 8080:
+```sh
+./HttpServer 8080
+```
+
+Start the server with the default port:
+```sh
+./HttpServer
+```
+
+
