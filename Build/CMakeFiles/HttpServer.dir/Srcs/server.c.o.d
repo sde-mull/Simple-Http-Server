@@ -1,6 +1,6 @@
 CMakeFiles/HttpServer.dir/Srcs/server.c.o: \
-  /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Srcs/server.c \
-  /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Includes/HTTPServer.h \
+  /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Srcs/server.c \
+  /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Includes/HTTPServer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h \
@@ -151,8 +151,8 @@ CMakeFiles/HttpServer.dir/Srcs/server.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_ino_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_ino64_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_nlink_t.h \
-  /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Includes/Checks.h \
-  /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Includes/Server.h \
+  /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Includes/Checks.h \
+  /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Includes/Server.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/socket.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_u_char.h \
@@ -173,4 +173,4 @@ CMakeFiles/HttpServer.dir/Srcs/server.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_iovec_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/netinet/in.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/netinet6/in6.h \
-  /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Includes/Client.h
+  /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Includes/Client.h

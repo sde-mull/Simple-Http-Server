@@ -4,7 +4,7 @@
 # compile C with /Library/Developer/CommandLineTools/usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Includes
+C_INCLUDES = -I/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Includes
 
 C_FLAGSarm64 =  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
 

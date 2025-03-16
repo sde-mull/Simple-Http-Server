@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Srcs/check.c" "CMakeFiles/HttpServer.dir/Srcs/check.c.o" "gcc" "CMakeFiles/HttpServer.dir/Srcs/check.c.o.d"
-  "/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Srcs/client.c" "CMakeFiles/HttpServer.dir/Srcs/client.c.o" "gcc" "CMakeFiles/HttpServer.dir/Srcs/client.c.o.d"
-  "/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Srcs/main.c" "CMakeFiles/HttpServer.dir/Srcs/main.c.o" "gcc" "CMakeFiles/HttpServer.dir/Srcs/main.c.o.d"
-  "/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Srcs/server.c" "CMakeFiles/HttpServer.dir/Srcs/server.c.o" "gcc" "CMakeFiles/HttpServer.dir/Srcs/server.c.o.d"
+  "/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Srcs/check.c" "CMakeFiles/HttpServer.dir/Srcs/check.c.o" "gcc" "CMakeFiles/HttpServer.dir/Srcs/check.c.o.d"
+  "/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Srcs/client.c" "CMakeFiles/HttpServer.dir/Srcs/client.c.o" "gcc" "CMakeFiles/HttpServer.dir/Srcs/client.c.o.d"
+  "/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Srcs/main.c" "CMakeFiles/HttpServer.dir/Srcs/main.c.o" "gcc" "CMakeFiles/HttpServer.dir/Srcs/main.c.o.d"
+  "/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Srcs/server.c" "CMakeFiles/HttpServer.dir/Srcs/server.c.o" "gcc" "CMakeFiles/HttpServer.dir/Srcs/server.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

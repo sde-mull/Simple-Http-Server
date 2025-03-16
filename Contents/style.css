@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.httpContainer{
+	height: 100vh;
+	width: 100vw;
+	background-color: rgb(37, 39, 40);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.workingContainer {
+	height: 20%;
+	width: 50%;
+	background-color: rgb(59, 66, 73);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100px;
+}
+
+.working {
+	animation: animate 2s infinite alternate ease-in-out;
+}
+
+@keyframes animate {
+	from {
+		opacity: 0;
+		color: rgb(192, 5, 5);
+	}
+	to {
+		opacity: 1;
+		color: rgb(2, 88, 216);
+	}
+}

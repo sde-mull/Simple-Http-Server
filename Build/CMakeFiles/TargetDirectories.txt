@@ -1,3 +1,3 @@
-/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Build/CMakeFiles/HttpServer.dir
-/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Build/CMakeFiles/edit_cache.dir
-/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Build/CMakeFiles/rebuild_cache.dir
+/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Build/CMakeFiles/HttpServer.dir
+/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Build/CMakeFiles/edit_cache.dir
+/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Build/CMakeFiles/rebuild_cache.dir

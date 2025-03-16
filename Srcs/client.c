@@ -15,20 +15,31 @@ char *buildResponse(const char *file_name){
 	char 	*response = NULL;
 	char 	*header = NULL;
 	size_t 	response_len = 0;
+	const char *path = "../Contents/";
+	char full_path[BUFFER_SIZE];
 
-	const char *file_ext = get_file_extension(file_name);
-	const char *mime_type = getMimeType(file_ext);
-
+	
 	header = (char *)malloc(BUFFER_SIZE * sizeof(char));
 	if (!header)
 		return NULL;
 	response = (char *)malloc(BUFFER_SIZE * sizeof(char));
 	if (!response)
 		return NULL;
+	
+	if (file_name == NULL || strlen(file_name) == 0) {
+		printf("Error: No file specified\n");
+		snprintf(response, BUFFER_SIZE, "HTTP/1.1 400 Bad Request\r\nContent-Type: text/plain\r\n\r\n400 Bad Request");
+		return response;
+	}
+
+	const char *file_ext = get_file_extension(file_name);
+	const char *mime_type = getMimeType(file_ext);
 
 	snprintf((char *)header, BUFFER_SIZE, "HTTP/1.1 200 OK\r\nContent-Type: %s\r\n\r\n", mime_type);
 
-	file_fd = open(file_name, O_RDONLY);
+	snprintf(full_path, BUFFER_SIZE, "%s%s", path, file_name);
+
+	file_fd = open(full_path, O_RDONLY);
 	if (file_fd == -1){
 		snprintf(response, BUFFER_SIZE, "HTTP/1.1 404 Not Found\r\nContent-Type: text/plain\r\n\r\n404 Not Found");
 		return response;
@@ -43,14 +54,14 @@ char *buildResponse(const char *file_name){
 
 	response_len = strlen(header);
 
-	printf("\n\n------------\n%s\n--------------------\n\n", response);
-
 	ssize_t bytes_read;
     while ((bytes_read = read(file_fd, 
                             response + response_len, 
                             BUFFER_SIZE - response_len)) > 0) {
         response_len += bytes_read;
     }
+
+	printf("%s\n", response);
 
 	free(header);
     close(file_fd);
@@ -91,13 +102,9 @@ const char *getMimeType(const char *file_ext) {
         return "text/html";
     } else if (strcasecmp(file_ext, "txt") == 0) {
         return "text/plain";
-    } else if (strcasecmp(file_ext, "jpg") == 0 || strcasecmp(file_ext, "jpeg") == 0) {
-        return "image/jpeg";
-    } else if (strcasecmp(file_ext, "png") == 0) {
-        return "image/png";
-    } else if (strcasecmp(file_ext, "js") == 0) {  // Add JavaScript MIME type
+    } else if (strcasecmp(file_ext, "js") == 0) {
         return "application/javascript";
-    } else if (strcasecmp(file_ext, "css") == 0) { // Add CSS MIME type
+    } else if (strcasecmp(file_ext, "css") == 0) {
         return "text/css";
     } else {
         return "application/octet-stream";

@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C
+CMAKE_SOURCE_DIR = /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Build
+CMAKE_BINARY_DIR = /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/HttpServer.dir/depend.make
@@ -73,60 +73,60 @@ CMakeFiles/HttpServer.dir/codegen:
 .PHONY : CMakeFiles/HttpServer.dir/codegen
 
 CMakeFiles/HttpServer.dir/Srcs/check.c.o: CMakeFiles/HttpServer.dir/flags.make
-CMakeFiles/HttpServer.dir/Srcs/check.c.o: /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Srcs/check.c
+CMakeFiles/HttpServer.dir/Srcs/check.c.o: /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Srcs/check.c
 CMakeFiles/HttpServer.dir/Srcs/check.c.o: CMakeFiles/HttpServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/HttpServer.dir/Srcs/check.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HttpServer.dir/Srcs/check.c.o -MF CMakeFiles/HttpServer.dir/Srcs/check.c.o.d -o CMakeFiles/HttpServer.dir/Srcs/check.c.o -c /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Srcs/check.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/HttpServer.dir/Srcs/check.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HttpServer.dir/Srcs/check.c.o -MF CMakeFiles/HttpServer.dir/Srcs/check.c.o.d -o CMakeFiles/HttpServer.dir/Srcs/check.c.o -c /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Srcs/check.c
 
 CMakeFiles/HttpServer.dir/Srcs/check.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/HttpServer.dir/Srcs/check.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Srcs/check.c > CMakeFiles/HttpServer.dir/Srcs/check.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Srcs/check.c > CMakeFiles/HttpServer.dir/Srcs/check.c.i
 
 CMakeFiles/HttpServer.dir/Srcs/check.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/HttpServer.dir/Srcs/check.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Srcs/check.c -o CMakeFiles/HttpServer.dir/Srcs/check.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Srcs/check.c -o CMakeFiles/HttpServer.dir/Srcs/check.c.s
 
 CMakeFiles/HttpServer.dir/Srcs/client.c.o: CMakeFiles/HttpServer.dir/flags.make
-CMakeFiles/HttpServer.dir/Srcs/client.c.o: /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Srcs/client.c
+CMakeFiles/HttpServer.dir/Srcs/client.c.o: /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Srcs/client.c
 CMakeFiles/HttpServer.dir/Srcs/client.c.o: CMakeFiles/HttpServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/HttpServer.dir/Srcs/client.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HttpServer.dir/Srcs/client.c.o -MF CMakeFiles/HttpServer.dir/Srcs/client.c.o.d -o CMakeFiles/HttpServer.dir/Srcs/client.c.o -c /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Srcs/client.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/HttpServer.dir/Srcs/client.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HttpServer.dir/Srcs/client.c.o -MF CMakeFiles/HttpServer.dir/Srcs/client.c.o.d -o CMakeFiles/HttpServer.dir/Srcs/client.c.o -c /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Srcs/client.c
 
 CMakeFiles/HttpServer.dir/Srcs/client.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/HttpServer.dir/Srcs/client.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Srcs/client.c > CMakeFiles/HttpServer.dir/Srcs/client.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Srcs/client.c > CMakeFiles/HttpServer.dir/Srcs/client.c.i
 
 CMakeFiles/HttpServer.dir/Srcs/client.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/HttpServer.dir/Srcs/client.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Srcs/client.c -o CMakeFiles/HttpServer.dir/Srcs/client.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Srcs/client.c -o CMakeFiles/HttpServer.dir/Srcs/client.c.s
 
 CMakeFiles/HttpServer.dir/Srcs/main.c.o: CMakeFiles/HttpServer.dir/flags.make
-CMakeFiles/HttpServer.dir/Srcs/main.c.o: /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Srcs/main.c
+CMakeFiles/HttpServer.dir/Srcs/main.c.o: /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Srcs/main.c
 CMakeFiles/HttpServer.dir/Srcs/main.c.o: CMakeFiles/HttpServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/HttpServer.dir/Srcs/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HttpServer.dir/Srcs/main.c.o -MF CMakeFiles/HttpServer.dir/Srcs/main.c.o.d -o CMakeFiles/HttpServer.dir/Srcs/main.c.o -c /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Srcs/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/HttpServer.dir/Srcs/main.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HttpServer.dir/Srcs/main.c.o -MF CMakeFiles/HttpServer.dir/Srcs/main.c.o.d -o CMakeFiles/HttpServer.dir/Srcs/main.c.o -c /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Srcs/main.c
 
 CMakeFiles/HttpServer.dir/Srcs/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/HttpServer.dir/Srcs/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Srcs/main.c > CMakeFiles/HttpServer.dir/Srcs/main.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Srcs/main.c > CMakeFiles/HttpServer.dir/Srcs/main.c.i
 
 CMakeFiles/HttpServer.dir/Srcs/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/HttpServer.dir/Srcs/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Srcs/main.c -o CMakeFiles/HttpServer.dir/Srcs/main.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Srcs/main.c -o CMakeFiles/HttpServer.dir/Srcs/main.c.s
 
 CMakeFiles/HttpServer.dir/Srcs/server.c.o: CMakeFiles/HttpServer.dir/flags.make
-CMakeFiles/HttpServer.dir/Srcs/server.c.o: /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Srcs/server.c
+CMakeFiles/HttpServer.dir/Srcs/server.c.o: /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Srcs/server.c
 CMakeFiles/HttpServer.dir/Srcs/server.c.o: CMakeFiles/HttpServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/HttpServer.dir/Srcs/server.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HttpServer.dir/Srcs/server.c.o -MF CMakeFiles/HttpServer.dir/Srcs/server.c.o.d -o CMakeFiles/HttpServer.dir/Srcs/server.c.o -c /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Srcs/server.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/HttpServer.dir/Srcs/server.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HttpServer.dir/Srcs/server.c.o -MF CMakeFiles/HttpServer.dir/Srcs/server.c.o.d -o CMakeFiles/HttpServer.dir/Srcs/server.c.o -c /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Srcs/server.c
 
 CMakeFiles/HttpServer.dir/Srcs/server.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/HttpServer.dir/Srcs/server.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Srcs/server.c > CMakeFiles/HttpServer.dir/Srcs/server.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Srcs/server.c > CMakeFiles/HttpServer.dir/Srcs/server.c.i
 
 CMakeFiles/HttpServer.dir/Srcs/server.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/HttpServer.dir/Srcs/server.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Srcs/server.c -o CMakeFiles/HttpServer.dir/Srcs/server.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Srcs/server.c -o CMakeFiles/HttpServer.dir/Srcs/server.c.s
 
 # Object files for target HttpServer
 HttpServer_OBJECTS = \
@@ -144,7 +144,7 @@ HttpServer: CMakeFiles/HttpServer.dir/Srcs/main.c.o
 HttpServer: CMakeFiles/HttpServer.dir/Srcs/server.c.o
 HttpServer: CMakeFiles/HttpServer.dir/build.make
 HttpServer: CMakeFiles/HttpServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable HttpServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable HttpServer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HttpServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -156,6 +156,6 @@ CMakeFiles/HttpServer.dir/clean:
 .PHONY : CMakeFiles/HttpServer.dir/clean
 
 CMakeFiles/HttpServer.dir/depend:
-	cd /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Build /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Build /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Build/CMakeFiles/HttpServer.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Build /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Build /Users/sebastiaomuller/Desktop/Coding/MyProjects/dev/HTTPServer/C/Simple-Http-Server/Build/CMakeFiles/HttpServer.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/HttpServer.dir/depend
 
