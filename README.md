@@ -20,10 +20,6 @@ This project was built to gain a deeper understanding of how HTTP requests work 
 
 This project provided valuable insights into backend development, reinforcing key concepts and improving my low-level programming skills.
 
-## Video
-
-[![Watch the video]](https://raw.githubusercontent.com/sde-mull/Simple-Http-Server/main/Simple_Http_Request.mp4.mp4)
-
 ## Build and Run
 
 1. If the `build` directory exists and contains files, delete them.
